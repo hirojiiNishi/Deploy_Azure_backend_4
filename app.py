@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app, resources={
     r"/api/*": {
         "origins": [
-            "tech0-gen-8-step3-testapp-node1-5.azurewebsites.net",
+            "https://tech0-gen-8-step3-testapp-node1-5.azurewebsites.net",
             "http://localhost:3000"
         ]
     }
